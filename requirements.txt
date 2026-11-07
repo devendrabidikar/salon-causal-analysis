@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+jupyter
+openpyxl
+plotly
+streamlit
+pytest

@@ -1,0 +1,68 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+secrets/
+**/secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Executed notebook copies; keep the source notebooks in notebooks/
+reports/01_output.ipynb
+reports/02_output.ipynb
+reports/03_output.ipynb
+reports/04_output.ipynb
+
+# Internal audit reports; retain locally, exclude from public repositories
+reports/AGENT_QA_AUDIT.md
+reports/FINAL_AUDIT_REPORT.md
+reports/FINAL_READINESS_AUDIT.md
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Generated temporary files and logs
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+tmp/
+temp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated synthetic datasets (keep locally, do not commit)
+data/raw/*.csv
+data/processed/*.csv
